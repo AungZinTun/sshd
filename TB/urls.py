@@ -19,6 +19,6 @@ from . import views
 from django.views.generic import TemplateView
 
 urlpatterns = [
-     path('', TemplateView.as_view(template_name="line_chart.html")),
-     path('/get_data', views.LineChartJSONView.as_view(), name='line_chart_json')
+    #  path('', TemplateView.as_view(template_name="line_chart.html")),
+    #  path('/get_data', views.LineChartJSONView.as_view(), name='line_chart_json')
 ]
